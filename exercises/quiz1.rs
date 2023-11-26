@@ -16,7 +16,13 @@
 // I AM NOT DONE
 
 // Put your function here!
-// fn calculate_price_of_apples {
+fn calculate_price_of_apples(rustbucks:isize) -> isize {    
+    if rustbucks > 40 {
+        rustbucks
+    } else {
+        rustbucks * 2
+    }
+}
 
 // Don't modify this function!
 #[test]
